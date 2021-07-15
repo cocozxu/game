@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | updated</title>
+    <title>Unity WebGL Player | web</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">updated</div>
+        <div id="unity-build-title">web</div>
       </div>
     </div>
     <script>
@@ -56,15 +56,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/new web gl.asm.loader.js";
+      var loaderUrl = buildUrl + "/hello.loader.js";
       var config = {
-        dataUrl: buildUrl + "/new web gl.data",
-        frameworkUrl: buildUrl + "/new web gl.asm.framework.js",
-        codeUrl: buildUrl + "/new web gl.asm.js",
-        memoryUrl: buildUrl + "/new web gl.asm.mem",
+        dataUrl: buildUrl + "/hello.data",
+        frameworkUrl: buildUrl + "/hello.framework.js",
+        codeUrl: buildUrl + "/hello.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "updated",
+        productName: "web",
         productVersion: "0.1",
         showBanner: unityShowBanner,
       };
